@@ -1,7 +1,7 @@
 import requests
 import json 
 
-key="029e4d13d05bab8a91e8fbe876e20239"
+key="your_key"
 with open ('sucursales_sol_360.csv') as sucursales:
     for f in sucursales:
         a=f.split(';')
